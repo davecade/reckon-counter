@@ -1,0 +1,68 @@
+.logo_container {
+	position: relative;
+	transition: all 0.5s;
+	cursor: default;
+
+	&:hover {
+		transform: scale(1.1);
+	}
+
+	.logo_letter {
+		font-size: 4rem;
+		font-weight: 500;
+		color: #fff;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+
+	.logo {
+		width: 6rem;
+		height: fit-content;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -55%);
+		justify-self: center;
+		border-radius: 35px 35px 35px 0;
+		overflow: hidden;
+		border: 10px solid white;
+
+		.color_one {
+			height: 1rem;
+			width: 100%;
+			background-color: #e90d17;
+		}
+
+		.color_two {
+			height: 1rem;
+			width: 100%;
+			background-color: #fa9421;
+		}
+
+		.color_three {
+			height: 1rem;
+			width: 100%;
+			background-color: #f8dc27;
+		}
+
+		.color_four {
+			height: 1rem;
+			width: 100%;
+			background-color: #2d9647;
+		}
+
+		.color_five {
+			height: 1rem;
+			width: 100%;
+			background-color: #2669fe;
+		}
+
+		.color_six {
+			height: 1rem;
+			width: 100%;
+			background-color: #8b309e;
+		}
+	}
+}
